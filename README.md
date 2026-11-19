@@ -63,6 +63,8 @@ My prediction: first `1`, then `5`.
 - `a`: add() makes items 1. Setting -5 is refused (value >= 0 fails). Prints 1.
 - `b`: BigBag.add() calls super.add() twice, so each add() is +2. Two calls give 4. Then items = 4 + 1 = 5. Prints 5.
 
-Real output: ()
+Real output: (1
+5)
 
-Was I right? ()
+Was I right? (Yes I was right,  Two calls give 4. Then items = 4 + 1 = 5. Prints 5.
+)
